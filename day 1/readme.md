@@ -1,0 +1,2 @@
+Nesse primeiro dia do desafio foi apresentado um problema que ocorre, frequentemente, em situações em que se comparam os valores de variaveis. A proposta do exercício foi fazer as alterações necessárias no código, para que ele imprimisse as informações de maneira correta.
+Para resolver, realizei comparações entre as váriaveis de tipos string e number, por meio dos operadores de comparação "==" e "===", para que os textos impressos informem se as variaveis são ou não identicas, em valor e tipo. 

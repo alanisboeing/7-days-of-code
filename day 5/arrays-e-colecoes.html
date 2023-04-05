@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 5</title>
+</head>
+<body>
+    <h1>Lista de Mercado</h1>
+    <label>Digite o item que você deseja adicionar na lista<input type="text" class="item"></label>
+    <label>Selecione a categoria do item
+        <select name="categoria" class="categoria">
+            <option value="padaria" class="padaria">Padaria</option>
+            <option value="hortifruti" class="hortifruti">Hortifruti</option>
+            <option value="frios" class="frios">Frios e Laticínios</option>
+            <option value="higiene" class="higiene">Higiene</option>
+            <option value="limpeza" class="limpeza">Limpeza</option>
+            <option value="outros" class="outros">Outros</option>
+        </select>
+    </label>
+    <label>Adicionar à lista de compras<input type="button" class="botao"></label>
+    
+    <table id="lista" border="1">
+        <tr>
+            <td>Item</td>
+            <td>categoria</td>
+        </tr>
+
+    </table> 
+    <label>Ver lista de compras otimizada<input type="button" class="botao2" id="texto"> </label>
+    <script src="arrays-e-colecoes.js"></script>
+</body>
+</html>
