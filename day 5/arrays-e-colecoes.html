@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Lista de Mercado</h1>
-    <label>Digite o item que você deseja adicionar na lista<input type="text" class="item"></label>
+    <label>Digite o item que você deseja adicionar na lista<input type="text" data-item class="item"></label>
     <label>Selecione a categoria do item
         <select name="categoria" class="categoria">
             <option value="padaria" class="padaria">Padaria</option>
@@ -19,7 +19,7 @@
             <option value="outros" class="outros">Outros</option>
         </select>
     </label>
-    <label>Adicionar à lista de compras<input type="button" class="botao"></label>
+    <input type="button" data-botao class="botao" value="Adicionar à lista de compras"/>
     
     <table id="lista" border="1">
         <tr>
@@ -28,7 +28,7 @@
         </tr>
 
     </table> 
-    <label>Ver lista de compras otimizada<input type="button" class="botao2" id="texto"> </label>
+    <input type="button" data-botao-otimiza class="botao2" id="texto" value="Ver lista de compras otimizada">
     <script src="arrays-e-colecoes.js"></script>
 </body>
 </html>
